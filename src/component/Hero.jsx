@@ -3,10 +3,16 @@ import { motion } from 'framer-motion'
 
 function Hero() {
 
-    const text = 'LOEMHOR CHHEANG'
+    const names = [
+        'LOEMHOR CHHEANG',
+        'CHHEANG LOEMHOR'
+    ]
 
+    const [nameIndex, setNameIndex] = useState(0)
     const [displayText, setDisplayText] = useState('')
     const [isDeleting, setIsDeleting] = useState(false)
+
+    const text = names[nameIndex]
 
     useEffect(() => {
         let timeout
@@ -36,16 +42,19 @@ function Hero() {
             }, 80)
         }
 
-        // Pause before typing again
+        // When completely deleted → change name
         else if (isDeleting && displayText.length === 0) {
             timeout = setTimeout(() => {
+                setNameIndex(
+                    (prevIndex) => (prevIndex + 1) % names.length
+                )
                 setIsDeleting(false)
             }, 500)
         }
 
         return () => clearTimeout(timeout)
 
-    }, [displayText, isDeleting])
+    }, [displayText, isDeleting, text])
 
     return (
         <section
@@ -118,7 +127,9 @@ function Hero() {
                     }}
                 >
 
-                    <a href="#projects" className="
+                    <a
+                        href="#projects"
+                        className="
                             px-6 py-3
                             bg-amber-500
                             hover:bg-amber-600
@@ -126,11 +137,13 @@ function Hero() {
                             rounded-md
                             text-lg
                             font-bold
-                        ">
-                    View Projects
+                        "
+                    >
+                        View Projects
                     </a>
 
-                    <a href="#contact"
+                    <a
+                        href="#contact"
                         className="
                             px-6 py-3
                             border-2 border-amber-500
@@ -144,6 +157,22 @@ function Hero() {
                         "
                     >
                         Contact Me
+                    </a>
+
+                    <a
+                        href="/CURRICULUM%20VITAE%20AND%20COVER%20LETTER.pdf"
+                        download
+                        className="
+                            px-6 py-3
+                            bg-amber-500
+                            hover:bg-amber-600
+                            transition
+                            rounded-md
+                            text-lg
+                            font-bold
+                        "
+                    >
+                        CV
                     </a>
 
                 </motion.div>

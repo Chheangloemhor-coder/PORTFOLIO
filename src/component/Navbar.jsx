@@ -7,7 +7,7 @@ function Navbar() {
             gap-5
             px-6 py-5 md:px-20
             bg-linear-to-r from-amber-300 to-amber-600
-            text-white fixed w-full top z-100">
+            text-white w-full top z-100">
 
             {/* Logo */}
             <div>
