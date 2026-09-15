@@ -1,14 +1,14 @@
 const projects = [
-    {
-        id: 1,
-        title: 'E-Commerce Website',
-        description:
-            'A modern and responsive e-commerce website designed to provide a smooth and user-friendly online shopping experience.',
-        image: '/images/e-ecommerce.png',
-        technologies: ['React', 'Tailwind CSS', 'JavaScript'],
-        link: 'https://food-ecommerce-ivory.vercel.app/',
-        type: 'website',
-    },
+    // {
+    //     id: 1,
+    //     title: 'E-Commerce Website',
+    //     description:
+    //         'A modern and responsive e-commerce website designed to provide a smooth and user-friendly online shopping experience.',
+    //     image: '/images/e-ecommerce.png',
+    //     technologies: ['React', 'Tailwind CSS', 'JavaScript'],
+    //     link: 'https://food-ecommerce-ivory.vercel.app/',
+    //     type: 'website',
+    // },
 
     {
         id: 2,
@@ -117,6 +117,76 @@ const projects = [
         image: '/images/ចូលឆ្នាំខ្មែរ.jpg',
         technologies: ['Adobe Photoshop', 'Adobe Illustrator'],
         link: '/images/ចូលឆ្នាំខ្មែរ.jpg',
+        type: 'image',
+    },
+    {
+        id: 12,
+        title: 'ID Card',
+        description:
+            'An ID card is an official document used to identify a person. It typically contains important information such as the person’s name, photo, date of birth, ID number, and other identification details.',
+        image: '/images/id card.jpg',
+        technologies: ['Adobe Photoshop', 'Adobe Illustrator'],
+        link: '/images/id card.jpg',
+        type: 'image',
+    },
+    {
+        id: 13,
+        title: 'J-Flag',
+        description:
+            'F-Flag is a feature used to manage and control specific functions or settings within a system or application.',
+        image: '/images/j-flag Mockup.jpg',
+        technologies: ['Adobe Photoshop', 'Adobe Illustrator'],
+        link: '/images/j-flag Mockup.jpg',
+        type: 'image',
+    },
+    {
+        id: 14,
+        title: 'Bottle',
+        description:
+            'A bottle is a container used to store and carry liquids such as water, drinks, and other beverages.',
+        image: '/images/Bottle.png',
+        technologies: ['Adobe Photoshop', 'Adobe Illustrator'],
+        link: '/images/Bottle.png',
+        type: 'image',
+    },
+    {
+        id: 15,
+        title: 'T-shirt Mockup',
+        description:
+            'A shirt is a piece of clothing worn on the upper body for comfort, style, or protection.',
+        image: '/images/T-shirt Mockup.jpg',
+        technologies: ['Adobe Photoshop', 'Adobe Illustrator'],
+        link: '/images/T-shirt Mockup.jpg',
+        type: 'image',
+    },
+    {
+        id: 16,
+        title: 'Umbrella',
+        description:
+            'An umbrella is a portable tool used to protect people from rain or sunlight.',
+        image: '/images/Umbrella.jpg',
+        technologies: ['Adobe Photoshop', 'Adobe Illustrator'],
+        link: '/images/Umbrella.jpg',
+        type: 'image',
+    },
+    {
+        id: 17,
+        title: 'Package',
+        description:
+            'A package is a container used to safely store, protect, and transport items from one place to another.',
+        image: '/images/package.done.jpg',
+        technologies: ['Adobe Photoshop', 'Adobe Illustrator'],
+        link: '/images/package.done.jpg',
+        type: 'image',
+    },
+    {
+        id: 18,
+        title: 'Magazine',
+        description:
+            'A magazine is a publication containing articles, stories, pictures, and information on various topics.',
+        image: '/images/Small Magazine.jpg',
+        technologies: ['Adobe Indesign'],
+        link: '/images/Small Magazine.jpg',
         type: 'image',
     },
 ];

@@ -23,7 +23,7 @@ function About() {
                     </h3>
 
                     <p className="text-sm sm:text-base text-gray-400 leading-7 md:leading-8 max-w-3xl">
-                        I am a passionate Frontend Developer who enjoys
+                        I am a passionate Frontend Developer and Graphic Designer who enjoys
                         creating modern, responsive, and user-friendly websites.
                         I am continuously learning new technologies and improving
                         my development skills.
@@ -107,7 +107,7 @@ function About() {
 
                         <p className="text-sm md:text-base text-gray-400 leading-7">
                             I have worked on personal and university projects
-                            using Adobe Photoshop, Adobe Illustrator, and Figma
+                            using Adobe Photoshop, Adobe Illustrator, Adobe Indesign and Figma
                             to create posters, billboards, logos, packaging,
                             shirts, J-flags, and umbrellas.
                         </p>

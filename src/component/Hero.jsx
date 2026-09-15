@@ -80,12 +80,12 @@ function Hero() {
             >
 
                 <h1 className="text-3xl">
-                    Hello,
+                    Hello, I'm
                 </h1>
 
-                <h1 className="text-4xl font-bold">
+                {/* <h1 className="text-4xl font-bold">
                     I'm
-                </h1>
+                </h1> */}
 
                 {/* TYPING NAME */}
                 <h1 className="
@@ -105,7 +105,7 @@ function Hero() {
                     mt-3
                     text-amber-400
                 ">
-                    Frontend Developer & Creative Design
+                    Frontend Developer & Creative Designer
                 </h2>
 
                 <p className="
@@ -113,7 +113,7 @@ function Hero() {
                     mt-3
                     text-gray-300
                 ">
-                    I build modern and responsive websites.
+                    I build modern and responsive websites more effectively.
                 </p>
 
                 {/* BUTTONS */}

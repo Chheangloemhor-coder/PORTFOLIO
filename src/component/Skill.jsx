@@ -136,6 +136,17 @@ function Skills() {
                             <div className="bg-amber-500 h-3 rounded-full w-[75%]"></div>
                         </div>
                     </div>
+                    {/* Indesign */}
+                    <div>
+                        <div className="flex justify-between mb-2">
+                            <h3 className="font-semibold">Indesign</h3>
+                            <span className="text-amber-500">95%</span>
+                        </div>
+
+                        <div className="w-full bg-[#0F0F0F] rounded-full h-3">
+                            <div className="bg-amber-500 h-3 rounded-full w-[95%]"></div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
